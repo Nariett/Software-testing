@@ -1,0 +1,403 @@
+{
+  "id": "664a3a01-938c-4101-bf4a-49b99b0a3c85",
+  "version": "2.0",
+  "name": "Задание1",
+  "url": "https://5element.by/",
+  "tests": [{
+    "id": "9419e7a4-1f9b-45c7-b980-02f11322616b",
+    "name": "Самойлов_1",
+    "commands": [{
+      "id": "dc765ac4-cfe4-4a2c-a977-08d5bed5524c",
+      "comment": "",
+      "command": "open",
+      "target": "https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "933fc4bd-8e34-4c2b-981a-95c15b048a43",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab6e66b6-37e4-4f3d-80d3-2d741d135cc2",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16ed3a24-0a43-4a8f-91cf-352a0a25be62",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchInput",
+      "targets": [
+        ["id=searchInput", "id"],
+        ["name=search", "name"],
+        ["css=#searchInput", "css:finder"],
+        ["xpath=//input[@id='searchInput']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Selenium"
+    }, {
+      "id": "93f7462f-d6cf-4739-8888-4267c38db339",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchButton",
+      "targets": [
+        ["id=searchButton", "id"],
+        ["name=go", "name"],
+        ["css=#searchButton", "css:finder"],
+        ["xpath=//input[@id='searchButton']", "xpath:attributes"],
+        ["xpath=//div[@id='simpleSearch']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3910cd0-22a0-41a0-b4ef-e2795d91a88e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=td:nth-child(1) > a:nth-child(2)",
+      "targets": [
+        ["css=td:nth-child(1) > a:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Google Chrome')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/table[2]/tbody/tr[2]/td/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Google_Chrome')])[3]", "xpath:href"],
+        ["xpath=//td/a[2]", "xpath:position"]
+      ],
+      "value": "Google Chrome"
+    }, {
+      "id": "0ab89bf1-a77f-4911-a29e-99a97bf66044",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(1) > a:nth-child(2)",
+      "targets": [
+        ["css=td:nth-child(1) > a:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Google Chrome')])[2]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/div/table[2]/tbody/tr[2]/td/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/wiki/Google_Chrome')])[3]", "xpath:href"],
+        ["xpath=//td/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cfdd03e9-2d24-4602-9483-8165e6865b8d",
+    "name": "Самойлов_2",
+    "commands": [{
+      "id": "499a47d0-90dc-49b0-824c-09429bdaa4a2",
+      "comment": "",
+      "command": "open",
+      "target": "https://5element.by/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f30bb086-41a2-4169-b8df-7535ec5c697c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1020",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65f51cf4-289e-401f-ab4b-e5dcf6530d1b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.swiper-slide-active > .banner-image > img",
+      "targets": [
+        ["css=.swiper-slide-active > .banner-image > img", "css:finder"],
+        ["xpath=//img[@alt='Майское суперпредложение цен']", "xpath:img"],
+        ["xpath=//div[@id='swiper-wrapper-e545a659e361fdbe']/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13d71fca-aa1d-44aa-bf13-c246f95b9bfc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбуки и компьютеры",
+      "targets": [
+        ["linkText=Ноутбуки и компьютеры", "linkText"],
+        ["css=.swiper-slide:nth-child(4) > .nav-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Ноутбуки и компьютеры')]", "xpath:link"],
+        ["xpath=//div[@id='swiper-wrapper-977ed8bd42949aa2']/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/11-noutbuki-i-kompyutery')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ноутбуки и компьютеры')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2622e2e-047b-4464-9357-e58053a97980",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Ноутбуки и компьютеры",
+      "targets": [
+        ["linkText=Ноутбуки и компьютеры", "linkText"],
+        ["css=.swiper-slide:nth-child(4) > .nav-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Ноутбуки и компьютеры')]", "xpath:link"],
+        ["xpath=//div[@id='swiper-wrapper-40626e1006832c812']/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/11-noutbuki-i-kompyutery')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ноутбуки и компьютеры')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3be406be-bdf5-4596-878f-a10d116f7988",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.swiper-slide:nth-child(11) > .card-category .swiper-lazy",
+      "targets": [
+        ["css=.swiper-slide:nth-child(11) > .card-category .swiper-lazy", "css:finder"],
+        ["xpath=(//img[@alt='category'])[11]", "xpath:img"],
+        ["xpath=//div[@id='swiper-wrapper-f98e28a117d8bf1f']/div[11]/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[11]/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1131554b-8177-4544-842c-6f5a27017139",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Мониторы",
+      "targets": [
+        ["linkText=Мониторы", "linkText"],
+        ["css=#filters-0 > .filter-body > .filter-categories > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Мониторы')]", "xpath:link"],
+        ["xpath=//div[@id='filters-0']/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/283-monitory')]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мониторы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce33d395-f2df-4ba8-84c4-ebf3a8d688d4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=144 Гц",
+      "targets": [
+        ["linkText=144 Гц", "linkText"],
+        ["css=.p-item:nth-child(7) .item-box-link", "css:finder"],
+        ["xpath=//a[contains(text(),'144 Гц')]", "xpath:link"],
+        ["xpath=//div[@id='app']/main/div[3]/div/div/div[2]/div/div/div/div/label[7]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://5element.by/catalog/283-monitory/chastota-obnovleniya-ekrana=144')]", "xpath:href"],
+        ["xpath=//label[7]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'144 Гц')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfee0ef1-37df-4150-8294-b6536dc3f61d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#filter-687791 > .filter-body > .filter-item:nth-child(5) .inp-box__view",
+      "targets": [
+        ["css=#filter-687791 > .filter-body > .filter-item:nth-child(5) .inp-box__view", "css:finder"],
+        ["xpath=//div[@id='filter-687791']/div/div[5]/div/label/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/div/div[5]/div/label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc14cb26-136a-4c86-a85d-dc186b3e9276",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.h-discounts",
+      "targets": [
+        ["css=.h-discounts", "css:finder"],
+        ["xpath=//div[@id='swiper-wrapper-f218d734d3f91eec']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/actions/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6396e2f3-5a63-464b-9d1d-8680498bc2c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-mm-opener",
+      "targets": [
+        ["css=.js-mm-opener", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/header/div/div[2]/div/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Каталог')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32a37e54-d802-4376-b5f3-f3efe4a932bd",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.h-discounts__text",
+      "targets": [
+        ["css=.h-discounts__text", "css:finder"],
+        ["xpath=//div[@id='swiper-wrapper-d5e43f0a4b55bea6']/div/a/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3288d24e-7f63-4c62-b799-7cb5d41cd8d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.h-burger__text",
+      "targets": [
+        ["css=.h-burger__text", "css:finder"],
+        ["xpath=//div[@id='app']/header/div/div[2]/div/div/div/div[2]/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Каталог')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d10e50ae-57e9-4cef-b67b-24410ed437c2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Телевизоры и видео",
+      "targets": [
+        ["linkText=Телевизоры и видео", "linkText"],
+        ["css=.swiper-slide:nth-child(3) > .nav-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Телевизоры и видео')]", "xpath:link"],
+        ["xpath=//div[@id='swiper-wrapper-81e6213a1241ecd9']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/catalog/13-televizory-i-video')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Телевизоры и видео')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bf640e72-521b-4673-8909-5616d9b52a6f",
+    "name": "Самойлов_3",
+    "commands": [{
+      "id": "8433e6dd-a8f5-4b10-9747-23bc17040115",
+      "comment": "",
+      "command": "open",
+      "target": "https://kbp.by/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4a25cd9-9c24-4221-8d34-107a658538a3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=АДМИНИСТРАЦИЯ",
+      "targets": [
+        ["linkText=АДМИНИСТРАЦИЯ", "linkText"],
+        ["css=#menu-item-18626 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'АДМИНИСТРАЦИЯ')])[2]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-18626']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://kbp.by/administraciya.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d51b6f47-b1d5-41e0-a322-eb33deded026",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=ФОТОГАЛЕРЕЯ",
+      "targets": [
+        ["linkText=ФОТОГАЛЕРЕЯ", "linkText"],
+        ["css=#menu-item-18630 > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'ФОТОГАЛЕРЕЯ')])[2]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-18630']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://kbp.by/fotogalereya.html')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": "ФОТОГАЛЕРЕЯ"
+    }, {
+      "id": "e27155b7-2718-47a2-9b06-1f960977a998",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-icon",
+      "targets": [
+        ["css=.search-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f95e7601-c541-475f-b432-c83f612b37c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=is-search-input-17441",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8ac48795-8287-4923-9e95-d2555cf9d863",
+    "name": "Самойлов_4",
+    "commands": [{
+      "id": "47a676ce-ed03-4568-9218-21a61d5f01b1",
+      "comment": "",
+      "command": "open",
+      "target": "http://kbp.by/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d66624c0-51e9-454f-bc54-ecfab7a0d0bd",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Колледж бизнеса и права - Новости | Колледж бизнеса и права",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e61ab36-3cf4-44a8-89a7-e1040f58c71e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "Информация о приемной комиссии",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a555a6c1-3fdd-4088-ac0e-1961694e35e4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=ОТДЕЛЕНИЯ",
+      "targets": [
+        ["linkText=ОТДЕЛЕНИЯ", "linkText"],
+        ["css=#menu-item-15288 > .parent", "css:finder"],
+        ["xpath=//a[contains(text(),'ОТДЕЛЕНИЯ')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-15288']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[7]", "xpath:href"],
+        ["xpath=//div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ОТДЕЛЕНИЯ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "897a69c3-3caa-4d8c-818c-780331c002db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ОТДЕЛЕНИЕ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ",
+      "targets": [
+        ["linkText=ОТДЕЛЕНИЕ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ", "linkText"],
+        ["css=#menu-item-17091 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'ОТДЕЛЕНИЕ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-17091']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://kbp.by/otdelenie-informacionnyx-texnologij.html')]", "xpath:href"],
+        ["xpath=//li[5]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'ОТДЕЛЕНИЕ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48c9fb91-bd10-4129-89b2-385d4d8cfb99",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Отделение информационных технологий",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13b48507-f7e5-4877-9617-c6aeeeb5f6e4",
+      "comment": "",
+      "command": "veirfy text",
+      "target": "заведующий отделением – Рагунович Ирина Михайловна",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c0ee77dc-081b-4366-9058-f000d9ecf8b5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9419e7a4-1f9b-45c7-b980-02f11322616b"]
+  }],
+  "urls": ["https://ru.wikipedia.org/", "https://5element.by/"],
+  "plugins": []
+}
