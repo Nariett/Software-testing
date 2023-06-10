@@ -1,0 +1,4 @@
+mkdir eviroments
+cd eviroments
+python -m venv selenium_env
+selenium_env\Scripts\activate.bat
